@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sinan Döş – Hakkında</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #000;
+      color: #d4a017;
+      line-height: 1.7;
+    }
+
+    header.hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(to bottom, #000, #111);
+    }
+
+    header.hero img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #d4a017;
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 25px;
+      border-left: 4px solid #d4a017;
+      padding-left: 15px;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .about p {
+      max-width: 850px;
+      margin: auto;
+      font-size: 1.15rem;
+    }
+
+    .companies {
+      margin-top: 40px;
+    }
+
+    .company-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+    }
+
+    .company-card {
+      background: #0d0d0d;
+      border: 1px solid #333;
+      padding: 25px;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .company-card:hover {
+      transform: translateY(-5px);
+      border-color: #d4a017;
+    }
+
+    .company-card img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-bottom: 15px;
+      filter: brightness(0.85);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-top: 20px;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      border-radius: 12px;
+      border: 2px solid #222;
+      transition: 0.3s;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.03);
+      border-color: #d4a017;
+    }
+
+    .social-list {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 10px;
+    }
+
+    .social-list a {
+      color: #d4a017;
+      text-decoration: none;
+      font-size: 1.2rem;
+      border-bottom: 1px solid transparent;
+      transition: 0.3s;
+    }
+
+    .social-list a:hover {
+      border-color: #d4a017;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      margin-top: 40px;
+      background: #0d0d0d;
+      border-top: 1px solid #222;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+<!-- Arka plan müziği -->
+<audio autoplay loop>
+<source src="muzik.mp3" type="audio/mpeg">
+Tarayıcınız audio elementini desteklemiyor.
+</audio>
+
+
+  <header class="hero">
+    <img src="resim2.jpg" alt="Sinan Döş" />
+    <h1>Sinan Döş</h1> 
+    <p>Girişimci • İş İnsanı</p>
+  </header>
+
+  <section class="section about">
+    <h2>Hakkında</h2>
+    <p>Koyunlar ömrünu kurttan Korkarak Geçirir Halbuki sonunda onu yiyen Çobandir.! cesaret yaşamaktir..
+
+Profil · Dijital İçerik Üretici
+
+Sinan Eşarp & Şal Dünyası'da Yönetim Kurulu Bşk.
+
+Dsier Gayrimenkul'da İŞ YERİ SAHİBİ - İŞ VEREN
+
+Sinan Bey Çiftliği'de SAHİBİ/İŞVEREN
+
+Dsier Auto Sıfır ve 2. El araç Alım, Satım'da yönetici iş veren
+
+D,Sier AUTO'da SAHİBİ/İŞVEREN
+
+By Sinan Esarp ve 36 marka Toptan Satış & servis tedarik'te SAHİBİ/İŞVEREN
+
+By Sinan Esarp Magazaları'da yönetici iş veren</p>
+  </section>
+
+  <section class="section companies">
+    <h2>Şirketleri</h2>
+    <div class="company-list">
+      <div class="company-card"><img src="resimler/logo1.jpg" alt="Şirket 1" /><h3>By Sinan Eşarp Mağazaları</h3><p> </p></div>
+      <div class="company-card"><img src="resimler/logo2.jpg" alt="Şirket 2" /><h3>AlwayScarf</h3><p>  </p></div>
+      <div class="company-card"><img src="resimler/logo3.jpg" alt="Şirket 3" /><h3>Turkuaz Eşarp A.Ş</h3><p>  </p></div>
+      <div class="company-card"><img src="resimler/logo4.jpg" alt="Şirket 4" /><h3>Dsier </h3><p>  </p></div>
+      <div class="company-card"><img src="resimler/logo5.jpg" alt="Şirket 5" /><h3>Dsier Auto</h3><p> </p></div>          
+      <div class="company-card"><img src="resimler/logo6.jpg" alt="Şirket 6" /><h3>Ubuntu</h3><p> </p></div>
+      <div class="company-card"><img src="resimler/logo7.jpg" alt="Şirket 7" /><h3>Dsier Gayrimenkul</h3><p>  </p></div>
+      <div class="company-card"><img src="resimler/logo8.jpg" alt="Şirket 8" /><h3>NeneHatun Eşarp</h3><p>  </p></div>
+    </div>
+  </section>
+
+  <section class="section gallery">
+    <h2>Fotoğraf Galerisi</h2>
+    <div class="gallery-grid">
+      <img src="resim.jpg" alt="Foto 1" />
+      <img src="resim3.jpg" alt="Foto 2" />
+      <img src="resim4.jpg" alt="Foto 3" />
+    </div>
+  </section>
+
+<section class="section social">
+<h2>Sosyal Medya</h2>
+<ul class="social-list">
+<li><a href="https://www.instagram.com/sinan_dos/" target="_blank">Instagram</a></li>
+<li><a href="https://www.facebook.com/sinan.dos" target="_blank">Facebook</a></li>
+</ul>
+</section>
+
+
+<footer>
+© 2025 Sinan Döş – Tüm Hakları Saklıdır
+</footer>
+</body>
+</html>
